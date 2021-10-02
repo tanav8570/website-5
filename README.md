@@ -20,7 +20,7 @@ To use this repository, you need the following installed locally:
 - [Hugo (Extended version)](https://gohugo.io/)
 - A container runtime, like [Docker](https://www.docker.com/).
 
-Before you start, install the dependencies. Clone the repository and navigate to the directory:
+Before you start, install the dependencies. Clone this repository and navigate to the directory:
 
 ```bash
 git clone https://github.com/kubernetes/website.git
@@ -45,7 +45,7 @@ make container-serve
 
 If you see errors, it probably means that the hugo container did not have enough computing resources available. To solve it, increase the amount of allowed CPU and memory usage for Docker on your machine ([MacOSX](https://docs.docker.com/docker-for-mac/#resources) and [Windows](https://docs.docker.com/docker-for-windows/#resources)).
 
-Open up your browser to <http://localhost:1313> to view the website. As you make changes to the source files, Hugo updates the website and forces a browser refresh.
+Open up your browser to <http://localhost:1313> to view the website. As you make the changes to the source files, Hugo updates the website and forces a browser refresh.
 
 ## Running the website locally using Hugo
 
